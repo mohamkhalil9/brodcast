@@ -58,6 +58,17 @@ client.on('message', message => { // هاذا للبرودكسات
 	}
 });
 
+client.on('ready', () => {
+   console.log(`----------------`);
+      console.log(`Desert Bot- Script By : EX Clan`);
+        console.log(`----------------`);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : EX Clan ' `);
+    console.log(`----------------`);
+  console.log(`Logged in as ${client.user.tag}!`);
+client.user.setGame(`#♛ ExPlosive ♛`,"http://twitch.tv/Death Shop")
+client.user.setStatus("online")
+});
+
 
 
 
